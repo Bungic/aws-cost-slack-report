@@ -1,0 +1,5 @@
+slack_sdk>=3.27
+
+# boto3 ships with the AWS Lambda Python runtime, but installing it locally
+# keeps unit tests and local invocations on the same major version.
+boto3>=1.34

@@ -1,0 +1,43 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ReadCostExplorerCostAndReservations",
+            "Effect": "Allow",
+            "Action": [
+                "ce:GetCostAndUsage",
+                "ce:GetReservationUtilization",
+                "ce:GetReservationCoverage"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "ReadCostExplorerSavingsPlans",
+            "Effect": "Allow",
+            "Action": [
+                "ce:GetSavingsPlansCoverage",
+                "ce:GetSavingsPlansUtilization",
+                "ce:GetSavingsPlansUtilizationDetails"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "DescribeSavingsPlans",
+            "Effect": "Allow",
+            "Action": [
+                "savingsplans:DescribeSavingsPlans"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Logs",
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
+        }
+    ]
+}
