@@ -1,5 +1,7 @@
 # billing-bot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=awslambda&logoColor=white)
+
 An AWS Lambda that compares your last 30 days of spend against the 30 days before that and drops a clean monthly report into a Slack channel. A short summary message at the top of the channel, plus threaded replies that go deep on each category: per-service cost changes, Reserved Instance health, and Savings Plans coverage.
 
 Works the same on a hobby account with a $50 bill or a multi-million-dollar production org. No agents, no daemons, no databases. One Lambda, one cron, one Slack channel.
