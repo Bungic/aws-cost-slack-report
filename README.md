@@ -52,7 +52,7 @@ Coverage by instance family
 `r7a   `   0.0%  (was 100.0%, ↓ -100.0pp)
 
 Underutilized subscriptions (top by unused hours)
-`abc123def456`  46.9% util, 12,568h unused, $30 left on the table
+`abc123def456`  46.9% util, 12,568h unused, $2,140 left on the table
 `...`
 ...
 
